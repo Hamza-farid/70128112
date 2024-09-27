@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Untitled Document</title>
+
+    <link rel="stylesheet" href="loginstyle.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: seagreen;
+        background-image: url("a.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .wrapper {
+        background: purple;
+        color: white;
+        background: transparent;
+      }
+      .wrapper h1 {
+        font-size: 29px;
+        text-align: center;
+        padding: 6px;
+      }
+      .wrapper .input-box {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        margin: 20px 0;
+      }
+      .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+      }
+      .input-box input::placeholder {
+        color: white;
+      }
+      .input-box i {
+        position: absolute;
+        right: 2px;
+        top: 30%;
+        transform: translate(-50%);
+      }
+      .wrapper .remember-forget {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px;
+      }
+      .remember-forget label input {
+        accent-color: #fff;
+        margin-right: 2px;
+      }
+      .remember-forget a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .remember-forget a:hover {
+        text-decoration: underline;
+      }
+      .btn {
+        width: 100%;
+        height: 35px;
+        border-radius: 25px;
+        font-weight: 300;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <h1>login</h1>
+        <div class="input-box">
+          <input type="text" placeholder=" username" required />
+          <i class="bx bxs-user"></i>
+        </div>
+
+        <div class="input-box">
+          <input type="password" placeholder=" password" required />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="remember-forget">
+          <label><input type="checkbox" />remember me</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""
+            >forget password?</a
+          >
+        </div>
+        <button type="submit" class="btn">login</button>
+      </form>
+    </div>
+  </body>
+</html>

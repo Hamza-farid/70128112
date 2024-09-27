@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Untitled Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script language="javascript">
+      $(document).ready(function () {
+        $("#fade_out").click(function () {
+          $("img").fadeOut(1000);
+        });
+
+        $("#fade_in").click(function () {
+          $("#iimg").fadeIn(1000);
+        });
+
+        $("#fade_toggle").click(function () {
+          $("#iimg").fadeToggle(1000);
+        });
+      });
+    </script>
+
+    <style type="text/css">
+      img:hover {
+        width: 200px;
+        height: 200px;
+      }
+      center {
+        background-color: aqua;
+      }
+      #iimg {
+        display: none;
+      }
+      summary {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p align="center">
+      <center><h2>Our Vision</h2></center>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, soluta
+      similique. Quaerat praesentium itaque vitae ratione odit natus quia
+      laborum optio, minima magni quas similique dicta velit aspernatur
+      dignissimos ipsum! Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Id quis quod nesciunt alias, ad quo laborum sed at. Nihil, laborum.
+      Harum quod vero consequuntur, animi iure debitis dolores soluta quis!
+    </p>
+
+    <hr />
+    <br />
+    <h1><center>the board of directors</center></h1>
+    <img src="x.jpg" height="200" alt="" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+      src="y.jpg"
+      height="200"
+      alt=""
+    />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+      src="z.jpg"
+      height="200"
+      alt=""
+    />
+    <figcaption>
+      Dr.Farzana
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr.Faisal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr.Adrees
+    </figcaption>
+    <hr />
+    <h4>
+      <b
+        ><i><u>for details</u></i></b
+      >
+    </h4>
+    <details>
+      <summary>Dr.farzana</summary>
+      <pre>
+Dr Farzana Firoz is a doctorate holder from University of Staffordshire, UK. She is the Group Chairperson, and founder of T</pre
+      >
+    </details>
+    <br />
+    <details>
+      <summary>Dr.faisal</summary>
+      <pre>
+Mr Jahangir Firoz is a graduate of the University of London. He is the Chief Executive Officer of City School Holdings International and member of the Board of Directors.</pre
+      >
+    </details>
+    <br />
+    <details>
+      <summary>Dr.adrees</summary>
+      <pre>
+Mr Aurangzeb Firoz is a graduate of the University of London and MBA holder from Cornell University, USA. He is member of the Board of Directors of T.</pre
+      >
+    </details>
+
+    <br />
+    <hr />
+    <center>
+      <h2>Our Goal</h2>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea nostrum natus
+      corrupti animi odio nisi nobis autem maiores vero itaque! Nisi nesciunt
+      expedita ducimus esse voluptates, ex beatae temporibus recusandae.
+    </center>
+    <hr />
+    <h3>
+      <b
+        ><i><u>PAK. MAP</u></i></b
+      >
+    </h3>
+    <img id="iimg" src="pakmap.jpg" alt="" />
+    <br />
+    <button
+      style="border-radius: 45px; cursor: pointer; background-color: darkgrey"
+      id="fade_toggle"
+    >
+      fade toggle
+    </button>
+  </body>
+</html>
